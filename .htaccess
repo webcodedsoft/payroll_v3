@@ -1,0 +1,116 @@
+#Disable directory indexs
+Options -Indexes
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+
+
+
+
+#Super Admin
+RewriteRule ^admin-dashboard super-admin/main/index.php [L]
+RewriteRule ^subscription-package super-admin/main/subscription-package.php [L]
+RewriteRule ^general-settings super-admin/main/settings.php [L]
+RewriteRule ^registered-company super-admin/main/registered-company.php [L]
+
+
+#Company Default Setup
+RewriteRule ^setup company-panel/Default/company_setup.php [L]
+
+#Company settings
+RewriteRule ^roles-permissions company-panel/Settings/roles_permissions.php [L]
+RewriteRule ^company-settings company-panel/Settings/company_setting.php [L]
+RewriteRule ^localization company-panel/Settings/localization.php [L]
+RewriteRule ^theme-settings company-panel/Settings/theme_settings.php [L]
+RewriteRule ^email-settings company-panel/Settings/email_settings.php [L]
+RewriteRule ^change-password company-panel/Settings/change_password.php [L]
+
+
+#Performance
+RewriteRule ^file-management company-panel/Performance/file_manager.php [L]
+RewriteRule ^download controller/company/PerformanceController.php [L]
+RewriteRule ^subscription company-panel/Performance/subscription_manager.php [L]
+
+#Projects
+RewriteRule ^project company-panel/Projects/project.php [L]
+RewriteRule ^overview company-panel/Projects/project_view.php [QSA,L]
+
+
+#Users
+RewriteRule ^users company-panel/Users/users_manager.php [L]
+
+#Clients
+RewriteRule ^clients company-panel/Clients/clients_manager.php [L]
+
+#Assets
+RewriteRule ^assets company-panel/Assets/assets_manager.php [L]
+
+
+#Accounts
+RewriteRule ^invoice company-panel/Accounts/invoice.php [L]
+RewriteRule ^view-invoice company-panel/Accounts/invoice_view.php [L]
+RewriteRule ^create-invoice company-panel/Accounts/create_invoice.php [L]
+RewriteRule ^edit-invoice company-panel/Accounts/create_invoice.php [QSA,L]
+RewriteRule ^expenses company-panel/Accounts/expenses.php [L]
+RewriteRule ^taxes company-panel/Accounts/taxes.php [L]
+
+
+
+#Configuration
+RewriteRule ^branch-setting company-panel/Configuration/manage_branch.php [L]
+RewriteRule ^department-setting company-panel/Configuration/manage_department.php [L]
+RewriteRule ^journal-setting company-panel/Configuration/manage_journal.php [L]
+RewriteRule ^salary-tax-settings company-panel/Configuration/manage_salary_tax.php [L]
+RewriteRule ^social-security-settings company-panel/Configuration/manage_social_security.php [L]
+RewriteRule ^association-settings company-panel/Configuration/manage_association.php [L]
+RewriteRule ^currency company-panel/Configuration/manage_currency.php [L]
+RewriteRule ^vacation-setting company-panel/Configuration/manage_vacation.php [L]
+RewriteRule ^family-tax company-panel/Configuration/manage_family_tax.php [L]
+RewriteRule ^marital-status company-panel/Configuration/manage_marital_status.php [L]
+RewriteRule ^leave-type company-panel/Configuration/manage_leave_type.php [L]
+
+
+
+#Employee
+RewriteRule ^add-employee company-panel/Employee/add_employee.php [L]
+RewriteRule ^employee-list company-panel/Employee/employee_list.php [L]
+RewriteRule ^view-employee company-panel/Employee/employee_view.php [L]
+RewriteRule ^edit-employee company-panel/Employee/add_employee.php [QSA,L]
+
+
+#Payroll
+RewriteRule ^add-earning company-panel/Payroll/add_earning.php [L]
+RewriteRule ^update-earning company-panel/Payroll/update_earning.php [L]
+RewriteRule ^deduction company-panel/Payroll/earning_deduction.php [L]
+RewriteRule ^employee-leave company-panel/Payroll/add_leave.php [L]
+RewriteRule ^payroll-item company-panel/Payroll/payroll_item.php [L]
+RewriteRule ^manage-payroll company-panel/Payroll/manage_payroll.php [L]
+
+
+
+
+#Report
+RewriteRule ^payment-proof company-panel/Reports/payment_proof.php [L]
+RewriteRule ^worksheet company-panel/Reports/payroll_worksheet.php [L]
+RewriteRule ^payroll-summary company-panel/Reports/payroll_worksheet_summary.php [L]
+RewriteRule ^salary-report company-panel/Reports/monthly_salary_report.php [L]
+RewriteRule ^row-report company-panel/Reports/payroll_row_list.php [L]
+RewriteRule ^aguinaldo company-panel/Reports/employee_aguinaldo.php [L]
+RewriteRule ^employee-history company-panel/Reports/employee_payroll_history.php [L]
+RewriteRule ^leave-report company-panel/Reports/leave_report.php [L]
+RewriteRule ^salary-letter company-panel/Reports/salary_letter.php [L]
+RewriteRule ^journal-report company-panel/Reports/journal_report.php [L]
+
+
+
+#Termination
+RewriteRule ^completion company-panel/Termination/completion.php [L]
+
+
+
+
+
+#RewriteRule ^employee-edit/(.*) admin-panel/edit-employee-edit.php?employee_id=$1 [QSA,L]

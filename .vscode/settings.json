@@ -1,0 +1,5 @@
+{
+    "workbench.enableExperiments": false,
+    "telemetry.enableCrashReporter": false,
+    "npm.fetchOnlinePackageInfo": false
+}
