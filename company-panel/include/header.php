@@ -1,4 +1,4 @@
-<?php require_once("data_connection.php"); ?>
+<!-- <?php require_once("data_connection.php"); ?> -->
 
 <!DOCTYPE html>
 <html class="loading" lang="en" data-textdirection="ltr">
