@@ -21,7 +21,7 @@ $(document).ready(function() {
 
                 $.ajax({
                     type: 'POST',
-                    url: "https://payrollv3.herokuapp.com/Controller/Auth/authController.php",
+                    url: "https://payrollv3.herokuapp.com/controller/auth/authController.php",
                     dataType: 'json',
                     data: { login_email: login_email, login_btn: "login_btn" },
 
