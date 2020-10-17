@@ -1,11 +1,11 @@
 <?php
-// require_once("../../core/init/init.php");
-// require_once("../admin/validation_rules.php");
+require_once("../../core/init/init.php");
+require_once("../admin/validation_rules.php");
 
-// $auth_model = new Model_AuthModel();
+$auth_model = new Model_AuthModel();
 
-// $_query = Classes_Db::getInstance();
-// $validate = new Classes_Validations();
+$_query = Classes_Db::getInstance();
+$validate = new Classes_Validations();
 
 echo "Reach";
 
