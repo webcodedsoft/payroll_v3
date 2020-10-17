@@ -67,10 +67,10 @@
 
 <input type="hidden" id="static_url" value="<?php echo $result["Web_Url"]; ?>">
 
-<?php
+<!-- <?php
 
 if (!strpos($server, 'setup')) {
     include("../include/sidebar.php");
 }
 
-?>
+?> -->

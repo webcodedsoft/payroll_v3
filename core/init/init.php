@@ -1,6 +1,6 @@
 <?php
-session_start();
 error_reporting(0);
+session_start();
 ob_start();
 
 $GLOBALS["config"] = array(
