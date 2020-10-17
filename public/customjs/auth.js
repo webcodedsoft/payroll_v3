@@ -86,7 +86,8 @@ $(document).ready(function() {
 
                         if (json[0] === 'Logged') {
                             $('#email_address').val("");
-                            window.location = baseUrls + "dashboard";
+                            // window.location = baseUrls + "dashboard";
+                            window.location = baseUrls + "localization";
 
                         } else {
                             toastr.info(json[0], 'Message!', { "showMethod": "slideDown", "hideMethod": "slideUp", timeOut: 5000, "progressBar": true });
