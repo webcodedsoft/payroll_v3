@@ -5,10 +5,10 @@ ob_start();
 
 $GLOBALS["config"] = array(
     "mysql" => array(
-        "hostname" => "localhost",
-        "username" => "root",
-        "password" => "webcoded1",
-        "db_name" => "payroll_v3"
+        "hostname" => "us-cdbr-east-02.cleardb.com",
+        "username" => "bff129ea04f84e",
+        "password" => "983eb71e",
+        "db_name" => "heroku_4e1379a3a4824c5"
 
     ),
     "remember_me" => array(
