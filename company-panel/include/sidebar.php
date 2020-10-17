@@ -12,7 +12,7 @@ if ($theme_data["Theme_Orientation"] == 'Horizontal') {
                         <li class="nav-item mobile-menu d-md-none mr-auto"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu font-large-1"></i></a></li>
                         <li class="nav-item">
                             <a class="navbar-brand" href="index.html">
-                                <img class="brand-logo" alt="Logo Here logo" src="../../../app-assets/images/logo/logo.png">
+                                <img class="brand-logo" src="../../../app-assets/images/logo/logo.png">
                                 <h3 class="brand-text">Logo Here</h3>
                             </a>
                         </li>
@@ -240,7 +240,7 @@ if ($theme_data["Theme_Orientation"] == 'Horizontal') {
                             <li class="nav-item mobile-menu d-md-none mr-auto"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu font-large-1"></i></a></li>
                             <li class="nav-item mr-auto">
                                 <a class="navbar-brand" href="index.html">
-                                    <img class="brand-logo" alt="Logo Here" src="public/app-assets/images/logo/logo.png">
+                                    <img class="brand-logo" src="public/app-assets/images/logo/logo.png">
                                     <h3 class="brand-text">Logo Here</h3>
                                 </a>
                             </li>
