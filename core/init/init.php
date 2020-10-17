@@ -27,7 +27,9 @@ $GLOBALS["config"] = array(
 
 spl_autoload_register(function($class){
 
-    //$filename = str_replace('_', '/', strtolower($class)).'.php';
+    $filenamess = str_replace('_', '/', strtolower($class)).'.php';
+    echo $filenamess;
+
     $filename = str_replace('_', '/', $class) . '.php';
     $filenames = "../../".$filename;
     
