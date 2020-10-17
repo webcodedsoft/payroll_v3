@@ -1,6 +1,6 @@
 $(document).ready(function() {
     var baseUrls = $(location).attr('href');
-    var urls = baseUrls.concat('Controller/Auth/authController.php');
+    var urls = baseUrls.concat('controller/auth/authController.php');
 
     $("#login_password_div").hide();
 
