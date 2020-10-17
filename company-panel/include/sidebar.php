@@ -12,7 +12,7 @@ if ($theme_data["Theme_Orientation"] == 'Horizontal') {
                         <li class="nav-item mobile-menu d-md-none mr-auto"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu font-large-1"></i></a></li>
                         <li class="nav-item">
                             <a class="navbar-brand" href="index.html">
-                                <img class="brand-logo" alt="modern admin logo" src="../../../app-assets/images/logo/logo.png">
+                                <img class="brand-logo" alt="Logo Here logo" src="../../../app-assets/images/logo/logo.png">
                                 <h3 class="brand-text">Logo Here</h3>
                             </a>
                         </li>
@@ -32,7 +32,7 @@ if ($theme_data["Theme_Orientation"] == 'Horizontal') {
                             <li class="dropdown dropdown-usernav-item has-sub">
                                 <a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">
                                     <span class="mr-1">Hello,
-                                        <span class="user-name text-bold-700">John Doe</span>
+                                        <span class="user-name text-bold-700">Webcoded</span>
                                     </span>
                                     <span class="avatar avatar-online">
                                         <img src="../../../app-assets/images/portrait/small/avatar-s-19.png" alt="avatar"><i></i></span>
@@ -240,7 +240,7 @@ if ($theme_data["Theme_Orientation"] == 'Horizontal') {
                             <li class="nav-item mobile-menu d-md-none mr-auto"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu font-large-1"></i></a></li>
                             <li class="nav-item mr-auto">
                                 <a class="navbar-brand" href="index.html">
-                                    <img class="brand-logo" alt="modern admin logo" src="public/app-assets/images/logo/logo.png">
+                                    <img class="brand-logo" alt="Logo Here" src="public/app-assets/images/logo/logo.png">
                                     <h3 class="brand-text">Logo Here</h3>
                                 </a>
                             </li>
@@ -265,7 +265,7 @@ if ($theme_data["Theme_Orientation"] == 'Horizontal') {
                                 <li class="dropdown dropdown-usernav-item has-sub">
                                     <a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">
                                         <span class="mr-1">Hello,
-                                            <span class="user-name text-bold-700">John Doe</span>
+                                            <span class="user-name text-bold-700">Webcoded</span>
                                         </span>
                                         <span class="avatar avatar-online">
                                             <img src="../../../app-assets/images/portrait/small/avatar-s-19.png" alt="avatar"><i></i></span>
