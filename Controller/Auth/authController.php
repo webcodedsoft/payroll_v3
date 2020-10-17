@@ -7,7 +7,7 @@ $auth_model = new Model_AuthModel();
 $_query = Classes_Db::getInstance();
 $validate = new Classes_Validations();
 
-echo "Reach";
+// echo "Reach";
 
 
 if(isset($_POST["login_btn"])){

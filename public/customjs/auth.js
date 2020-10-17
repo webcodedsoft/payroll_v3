@@ -4,7 +4,7 @@ $(document).ready(function() {
 
     $("#login_password_div").hide();
 
-    console.log(urls);
+    // console.log(urls);
 
     //Authenticate Email
     $(document).on('click', '#login_btn', function(e) {
