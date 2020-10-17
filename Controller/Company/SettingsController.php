@@ -1,6 +1,6 @@
 <?php
 require_once("../../core/init/init.php");
-//require_once("../admin/validation_rules.php");
+//require_once("../Admin/validation_rules.php");
 
 $role_permission_model = new Model_Company_SettingsModel();
 
