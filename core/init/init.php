@@ -27,10 +27,10 @@ $GLOBALS["config"] = array(
 
 spl_autoload_register(function($class){
 
-    $filenamess = str_replace('_', '/', strtolower($class)).'.php';
-    echo $filenamess;
-
+    // $filenamess = str_replace('_', '/', strtolower($class)).'.php';
+    
     $filename = str_replace('_', '/', $class) . '.php';
+    echo $filename;
     $filenames = "../../".$filename;
     
     if (file_exists($filenames)) {
