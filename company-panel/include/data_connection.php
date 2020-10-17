@@ -1,6 +1,4 @@
 <?php
-error_reporting(0);
-
 require_once("../../core/init/init.php");
 $_query = Classes_Db::getInstance();
 
